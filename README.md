@@ -11,7 +11,7 @@
 
 | Name | Branch | Email |
 |---|---|---|
-| Diya Jain *(Team Leader)* | B.Tech, Computer Science and Engineering (CSE) | dia.jainn.ug23@nsut.ac.in |
+| Diya Jain *(Team Leader)* | B.Tech, Electronics and Communication Engineering (ECE) | dia.jainn.ug23@nsut.ac.in |
 | Suryansh Malhotra | B.Tech, Instrumentation and Control Engineering (ICE) | suryansh.malhotra.ug23@nsut.ac.in |
 
 ## 2. College / Incubator information
