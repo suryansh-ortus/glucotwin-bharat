@@ -7,20 +7,19 @@
 
 ## 1. Team details
 
-| Name | Role | Email |
+**Team name:** Because I'm Happy Clap Along
+
+| Name | Branch | Email |
 |---|---|---|
-| Suryansh *(Team Leader)* | ML / Backend | `<email>` |
-| `<Member 2>` | `<role>` | `<email>` |
-| `<Member 3>` | `<role>` | `<email>` |
-| `<Member 4>` | `<role>` | `<email>` |
+| Diya Jain *(Team Leader)* | B.Tech, Computer Science and Engineering (CSE) | dia.jainn.ug23@nsut.ac.in |
+| Suryansh Malhotra | B.Tech, Instrumentation and Control Engineering (ICE) | suryansh.malhotra.ug23@nsut.ac.in |
 
 ## 2. College / Incubator information
 
 | | |
 |---|---|
-| College | `<College name, city>` |
-| Department / Program | `<e.g. B.Tech, ICE>` |
-| Incubator | `<Incubator name>` |
+| College | Netaji Subhas University of Technology (NSUT), New Delhi |
+| Program | B.Tech |
 
 ## 3. Project title
 
@@ -94,11 +93,11 @@ Full output: `results/backtest.txt`, `results/federated.txt`.
 
 ## 8. Demo video
 
-**Unlisted YouTube link:** `<https://youtu.be/XXXXXXXX>`
+**Unlisted YouTube link:** https://youtu.be/j5wbkDxeSIs
 
 ## 9. Architecture diagram
 
-📄 **[Architecture Diagram (PDF)](docs/GlucoTwin_Architecture.pdf)**: `<add file / link>`
+📄 **[Architecture Diagram (PDF)](docs/GlucoTwin_Architecture.pdf)**
 
 ```
  EHR (labs, meds, dx, genetics)          Wearables (CGM, HR, PPG, sleep, steps, meals)
@@ -122,7 +121,7 @@ Full output: `results/backtest.txt`, `results/federated.txt`.
 
 ## 10. Presentation
 
-📄 **[Project Presentation (PDF/PPT)](docs/GlucoTwin_Presentation.pdf)**: `<add file / link>`
+📄 **[Project Presentation (PDF/PPT)](docs/GlucoTwin_Presentation.pdf)**
 
 ## 11. How to run
 
