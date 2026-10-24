@@ -1,0 +1,7 @@
+__pycache__/
+.env
+web/node_modules/
+web/dist/
+results/backtest_rows.csv
+logs/
+weights/

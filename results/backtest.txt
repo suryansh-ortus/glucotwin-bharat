@@ -1,0 +1,26 @@
+GlucoTwin-Bharat backtest (zero training)
+patients: 23  forecast origins: 3481  horizon: 2 h (5-min steps)
+foundation backend: damped-trend (fallback)  [disabled via DISABLE_CHRONOS=1]
+LLM forecaster: off
+
+Forecast error (MAE, mg/dL), hourly origins
+model            @30min   @60min   @120min     mean
+persistence        18.4     31.0      51.3     31.3
+foundation         13.9     25.9      45.9     27.1
+mechanistic        15.7     19.0      33.4     21.0
+fused              11.6     17.6      33.6     20.0
+
+Post-meal origins (meal logged 5 min ago) - MAE mean over 2 h
+  persistence: 75.2  foundation: 76.2  mechanistic: 40.9  fused: 28.1
+
+New spike >180 in 2 h | meal just logged: events 210 / 267 origins
+  AUROC 0.952   alert precision 0.98   recall 0.86
+  median warning lead time 35 min (IQR 25-45)
+New spike >180 in 2 h | any hour (meal may not be eaten yet): events 353 / 1155 origins
+  AUROC 0.619   alert precision 0.93   recall 0.23
+Hypo <70 in 2 h | any hour: events 21 / 2996 origins
+  AUROC 0.971   alert precision 0.20   recall 0.90
+
+Twin divergence (P001, hidden viral illness from day 5):
+  mean basal-glucose shift days 1-4: -2.5 mg/dL;  day 5.5+: +29.5 mg/dL
+runtime 520s

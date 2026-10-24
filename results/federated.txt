@@ -1,0 +1,24 @@
+GlucoTwin federated adapter simulation (zero raw data shared)
+clients: 15 devices, held-out new patients: 8
+forecast backend: damped-trend (fallback)
+
+FedAvg: 3 rounds, 192 parameters per upload, update clip 5.0, noise multiplier 0.0
+FedAvg + DP noise: 3 rounds, 192 parameters per upload, update clip 5.0, noise multiplier 1.0
+
+Out-of-sample MAE (mg/dL, mean over 2 h) on NEW patients
+patient     twin  +online  +fed prior  +fed DP
+P001        15.8     14.6        14.4     14.4
+P002        13.5     13.2        13.2     13.2
+P003        15.6     13.4        13.4     13.4
+C200        19.1     18.9        18.5     18.5
+C201        20.3     20.0        19.5     19.5
+C202        18.7     18.6        18.2     18.2
+C203        16.2     16.2        15.8     15.8
+C204        13.9     13.8        13.5     13.5
+mean        16.6     16.1        15.8     15.8
+
+Cold start - first day only (first 24 matured forecasts)
+  twin 10.5 | online from zero 10.5 | online from federated prior 10.4
+
+runtime 294s
+global prior (DP version) saved to results/federated_prior.npy

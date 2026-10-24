@@ -1,0 +1,13 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+python-dotenv>=1.0
+openai>=1.40
+# zero-shot foundation model (pretrained weights from Hugging Face, no training)
+torch>=2.2
+chronos-forecasting>=1.5
+# optional: your own PPG model as ONNX
+# onnxruntime>=1.17
